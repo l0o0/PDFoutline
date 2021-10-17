@@ -1,6 +1,6 @@
 var zotfileLoader = Components.classes["@mozilla.org/moz/jssubscript-loader;1"]
     .getService(Components.interfaces.mozIJSSubScriptLoader);
-zotfileLoader.loadSubScript('chrome://zotfile/content/pdf-lib.min.js')
+zotfileLoader.loadSubScript('chrome://jasminum/content/scripts/pdf-lib.min.js')
 
 const getPageRefs = (pdfDoc) => {
     const refs = [];
